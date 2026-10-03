@@ -1,0 +1,17 @@
+name: BoomerangTrident
+version: ${project.version}
+main: com.example.boomerang.BoomerangTridentPlugin
+api-version: "1.21"
+description: A trident ability that throws 3 homing tridents at a target and recalls them to you.
+commands:
+  boomerang:
+    description: Give yourself the Boomerang Trident
+    usage: /boomerang [give|reload]
+    permission: boomerang.admin
+permissions:
+  boomerang.admin:
+    description: Allows giving the item and reloading the config
+    default: op
+  boomerang.use:
+    description: Allows using the Boomerang Trident ability
+    default: true

@@ -1,0 +1,23 @@
+# Boomerang Trident settings
+
+# Display name of the special trident (supports & colour codes)
+item-name: "&b&lBoomerang Trident"
+
+# Ability range in blocks (how far away a target can be)
+range: 40.0
+
+# Damage dealt by EACH trident on hit (2 = 1 heart). 3 tridents = 3x this.
+damage: 6.0
+
+# Flight speed in blocks per tick (outbound / return)
+speed-out: 1.6
+speed-return: 1.9
+
+# Ticks between each of the 3 tridents launching
+launch-stagger-ticks: 4
+
+# Cooldown in ticks (20 = 1 second)
+cooldown-ticks: 100
+
+# Safety: tridents are recalled if they haven't reached the target after this many ticks
+max-outbound-ticks: 60
